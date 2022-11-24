@@ -1,0 +1,27 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+-Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+=> Her durumda büyüklük ve küçüklük olarak sağ ve sol kısım başlarına yerleştirilerek gidilir.
+=> 22<27 
+=> 16<22 o zaman 16,22,27
+=> 2<16,22,27 o zaman 2,16,22,27
+=> 18, 2 ve 16'dan büyük 22 ve 27'den küçük o zaman 2,16,18,22,27
+=> 6, 2'den büyük 16,18,22,27'den küçük o zaman 2,6,16,18,22,27
+
+
+-Big-O gösterimini yazınız.
+n gösterimi ile başlayan işlemler dizisi 1 ile karşılaşıncaya kadar devam eder.
+
+
+-Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
+2,6,16,18,22,27 dizine baktığımız zaman Avarage Case kapsamına girer(18 Ortada olduğu için.)
+
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+=> [2,3,5,8,7,9,4,15,6]
+=> [2,3,5,8,7,9,4,15,6]
+=> [2,3,4,8,7,9,5,15,6]
+=> [2,3,4,5,7,9,8,15,6]
+
+
+------------------------------------------------------------------------------------------------
